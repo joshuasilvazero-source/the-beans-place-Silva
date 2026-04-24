@@ -56,6 +56,7 @@
 import HeroSection from "./components/HeroSection";
 import FooterSection from "./components/FooterSection";
 import NavBar from "./components/NavBar";
+import RibbonTicker from "./components/RibbonTicker";
 
 export default function App() {
     return (
@@ -68,6 +69,9 @@ export default function App() {
                     <HeroSection />
                 </div>
             </section>
+
+            {/*Ribbon Ticker*/}
+            <RibbonTicker />
             {/*Footer*/}
             <section className="bg-footer">
                 <FooterSection />
