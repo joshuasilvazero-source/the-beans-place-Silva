@@ -57,7 +57,7 @@ import HeroSection from "./components/HeroSection";
 import FooterSection from "./components/FooterSection";
 import NavBar from "./components/NavBar";
 import RibbonTicker from "./components/RibbonTicker";
-import FeaturesSection from "./components/FeaturesSection"
+import FeaturesSection from "./components/FeaturesSection";g
 
 export default function App() {
     return (
