@@ -89,6 +89,7 @@ export default function App() {
             <section className="bg-cta">
                 <CtaSection />
             </section>
+            <RibbonTicker />
             {/*About Section*/}
             <section className="bg-cta" id="about">
                 <AboutSection />
