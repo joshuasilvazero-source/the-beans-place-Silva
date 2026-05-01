@@ -198,7 +198,7 @@ export default function ContactForm() {
                             <input
                                 type="text"
                                 name="firstName"
-                                placeholder="Joshua"
+                                placeholder="John"
                                 value={formData.firstName}
                                 onChange={handleChange}
                                 className={inputClass("firstName")}
@@ -213,7 +213,7 @@ export default function ContactForm() {
                             <input
                                 type="text"
                                 name="lastName"
-                                placeholder="Silva"
+                                placeholder="Doe"
                                 value={formData.lastName}
                                 onChange={handleChange}
                                 className={inputClass("lastName")}
